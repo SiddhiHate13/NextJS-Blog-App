@@ -11,8 +11,8 @@ const Page = () => {
         title: "",
         description: "",
         category: "Startup",
-        author: "Alex Bennett",
-        authorImg: "/author_img.png"
+        author: "Siddhi Hate",
+        authorImg: "/profile_icon.jpeg"
     });
 
     const onChangeHandler = (event) => {
@@ -44,8 +44,8 @@ const Page = () => {
                     title: "",
                     description: "",
                     category: "Startup",
-                    author: "Alex Bennett",
-                    authorImg: "/author_img.png"
+        author: "Siddhi Hate",
+        authorImg: "/profile_icon.jpeg"
                 });
             } else {
                 toast.error(response.data.msg || "Error occurred while adding blog.");

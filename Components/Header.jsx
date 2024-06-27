@@ -7,6 +7,7 @@ import { FaMarker } from "react-icons/fa";
 
 
 
+
 const Header = () => {
 
   const [email,setEmail] = useState("");
@@ -24,6 +25,7 @@ const Header = () => {
       toast.error("Error")
     }
   }
+  
 
 
   return (
@@ -32,7 +34,8 @@ const Header = () => {
       <span className="self-center text-3xl font-semibold whitespace-nowrap text-[#c7ebfc] inline-flex items-center">
       <FaMarker className='mr-2' size={60}/> ThinkBlogs
           </span>
-      
+     
+        
       </div>
       <div className='text-center my-8'>
         <h1 className='text-3xl sm:text-6xl font-extrabold text-[#c6c6c6] '>Hello, You.</h1>
