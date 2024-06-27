@@ -6,7 +6,7 @@ ThinkBlogs is a blog application created with Next.js, Tailwind CSS, and MongoDB
 
 - **Home Page**: The home page of ThinkBlogs is displayed when the website is opened.
 - **Admin Page**: Navigate to `/admin` in the URL to access the admin page where the admin can:
-  - Add blogs
+  - Add blogs (Image for the new blog should be added from the 'Assets' folder. )
   - View the list of blogs
   - See the email IDs of subscribers
 
