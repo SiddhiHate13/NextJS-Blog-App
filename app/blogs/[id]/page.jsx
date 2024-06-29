@@ -27,6 +27,7 @@ const page = ({ params }) => {
     fetchBlogData();
   }, [])
 
+<<<<<<< HEAD
   return (data ? <div className='bg-gray-300'>
     <div className='bg-[#16425b] py-5 px-5 md:px-12 lg:px-28'>
     <div className='flex justify-between m-3 items-center '>
@@ -34,6 +35,17 @@ const page = ({ params }) => {
       <FaMarker className='mr-2' size={60}/> ThinkBlogs
           </span>
        </div>
+=======
+  return (data ? <>
+    <div className='bg-gray-200 py-5 px-5 md:px-12 lg:px-28'>
+     <div className='flex justify-between m-3 items-center '>
+      <span className="self-center text-3xl font-semibold whitespace-nowrap text-[#c7ebfc] inline-flex items-center">
+      <FaMarker className='mr-2' size={60}/> ThinkBlogs
+          </span>
+        <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-black shadow-[-7px_7px_0px_#000000]'>
+          Get started <Image src={assets.arrow} alt='' />
+        </button>
+>>>>>>> 16fd0ce0581c6956a1e03aecca79a806316e041c
       </div>
       <div className='text-center  my-24'>
         <h1 className='text-2xl sm:text-5xl font-semibold max-w-[700px] mx-auto'>{data.title}</h1>

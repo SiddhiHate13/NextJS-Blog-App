@@ -12,7 +12,11 @@ const Page = () => {
         description: "",
         category: "Startup",
         author: "Siddhi Hate",
+<<<<<<< HEAD
         authorImg: "/profile_icon.jpeg"
+=======
+        authorImg: "/profile_icon.png"
+>>>>>>> 16fd0ce0581c6956a1e03aecca79a806316e041c
     });
 
     const onChangeHandler = (event) => {
@@ -44,8 +48,13 @@ const Page = () => {
                     title: "",
                     description: "",
                     category: "Startup",
+<<<<<<< HEAD
         author: "Siddhi Hate",
         authorImg: "/profile_icon.jpeg"
+=======
+                    author: "Siddhi Hate",
+                    authorImg: "/profile_icon.png"
+>>>>>>> 16fd0ce0581c6956a1e03aecca79a806316e041c
                 });
             } else {
                 toast.error(response.data.msg || "Error occurred while adding blog.");
