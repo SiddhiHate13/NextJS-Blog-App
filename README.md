@@ -17,9 +17,5 @@ ThinkBlogs is a blog application created with Next.js, Tailwind CSS, and MongoDB
 - **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 - **MongoDB**: A NoSQL database for storing blog data and subscriber information.
 - **Axios**: A promise-based HTTP client for making API requests.
-<<<<<<< HEAD
-- **React Icons**: A library for including popular icons in your React project.
-=======
 - **React Icons**: A library for including popular icons in your React project.
 
->>>>>>> c7b2fc0f5779eb6aa4dfb01c81321ee54432da90
