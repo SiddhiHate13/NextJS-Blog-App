@@ -28,7 +28,7 @@ const page = () => {
   },[])
 
   return (
-    <div className='flex-1 pt-5 px-5 sm:pt-12 text-black font-bold text-2xl bg-gray-300 sm:pl-16'>
+    <div className='flex-1 pt-5 px-5 sm:pt-12 text-black font-bold text-2xl bg-gray-200 sm:pl-16'>
       <h1>All blogs</h1>
       <div className="relative h-[80vh] max-w-[850px] overflow-x-auto mt-4 border border-gray-400 scrollbar-hide">
                 <table className="w-full text-sm border border-black  text-gray-500">

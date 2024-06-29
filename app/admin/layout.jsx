@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <div className="flex">
         <ToastContainer theme="dark"/>
         <Sidebar />
-        <div className="flex bg-[#f7a541] flex-col w-full">
+        <div className="flex bg-[#0077b6] flex-col w-full">
           <div className="flex items-center justify-between w-full py-3 max-h-[100px] px-12 border-b border-black">
             <div className="flex items-center">
               <MdAdminPanelSettings className="mr-2" size={30} />

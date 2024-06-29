@@ -58,7 +58,7 @@ const Page = () => {
 
     return (
         <>
-            <form onSubmit={onSubmitHandler} className='pt-5 px-5 bg-gray-300 sm:pt-12  sm:pl-16'>
+            <form onSubmit={onSubmitHandler} className='pt-5 px-5 bg-gray-200 sm:pt-12  sm:pl-16'>
                 <p className='text-xl font-semibold'>Upload thumbnail</p>
                 <label htmlFor="image">
                     <Image className='mt-4 border-2 rounded-md border-gray-800' src={!image ? assets.upload_area : URL.createObjectURL(image)} width={140} height={70} alt='' />

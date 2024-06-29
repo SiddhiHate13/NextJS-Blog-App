@@ -8,9 +8,9 @@ import { MdOutlineReadMore } from "react-icons/md";
 const BlogItem = ({title,description,category,image,id}) => {
 
   return (
-    <div className='max-w-[330px] sm:max-w-[300px] transition-transform transform hover:scale-110 bg-white hover:bg-gray-200 rounded-lg  border border-black  '>
+    <div className='max-w-[330px] sm:max-w-[300px] transition-transform transform hover:scale-105 bg-white hover:bg-gray-200 rounded-xl  border border-black  shadow-[-3px_3px_3px_#0d1321] '>
       <Link href={`/blogs/${id}`}>
-      <Image src={image} alt='' width={400} height={400} className='border-b border-black rounded-lg ' />
+      <Image src={image} alt='' width={400} height={400} className='border-b border-black rounded-xl ' />
       </Link>
       <p className='ml-5 mt-5 px-1 inline-block bg-gray-600 text-white text-md p-0 rounded-md'>{category}</p>
       <div className="p-5">
