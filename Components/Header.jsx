@@ -29,6 +29,7 @@ const Header = () => {
 
 
   return (
+    <header data-testid="header">
     <div className='py-5 px-5 md:px-12 lg:px-28'>
       <div className='flex justify-between m-3 items-center '>
       <span className="self-center text-3xl font-semibold whitespace-nowrap text-[#c7ebfc] inline-flex items-center">
@@ -62,6 +63,7 @@ const Header = () => {
 
       </div>
     </div>
+    </header>
   )
 }
 

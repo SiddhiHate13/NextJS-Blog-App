@@ -22,6 +22,7 @@ const BlogList = () => {
     },[])
 
     return (
+      <div data-testid="blog-list">
       <div>
         <div className='flex justify-center gap-6 my-10'>
           <Button onClick={() => setMenu('All')} className={`py-1 px-4 rounded-md ${menu === "All" ? 'bg-gray-500 text-white' : 'bg-blue-200 text-gray-950 hover:bg-gray-500 hover:text-white'}`}>All</Button>
@@ -34,6 +35,7 @@ const BlogList = () => {
             <BlogItem key={index} id={item._id} image={item.image} title={item.title} description={item.description} category={item.category} />
           ))}
         </div>
+      </div>
       </div>
     )
   }
